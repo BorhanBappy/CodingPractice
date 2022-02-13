@@ -1,11 +1,14 @@
-# sting
-
+- [Variable](#variable)
+- [Arthmetic operation](#arthmetic-operation)
+- [List](#list)
+- [Tuples](#tuples)
+  - [Tuple to list convert](#tuple-to-list-convert)
+- [Dictionaries](#dictionaries)
 
 ```python
 #jupyter nbconvert --to markdown Practice.ipynb --output README.md
 
 ```
-
 
 ```python
 # sting
@@ -17,10 +20,8 @@ print(type(s))
 
     hello world
     <class 'str'>
-    
 
 ## multiple string
-
 
 ```python
 
@@ -47,19 +48,15 @@ print(ms)
     Dev is very popular website in Developers community.
     my name is jhonI am the owner of dev.comDev is very popular website in Developers community.
     My name is jhon.I am the owner of dev.comDev is very popular website in Developers community.
-    
 
 ## String concatention
 
 ### String Concatenation using + Operator
 
-
-
-
 ```python
 s1='Apple'
-s2='Banana' 
-s3='Orange'                                                           
+s2='Banana'
+s3='Orange'
 s4=s1+s2+s3
 print(s4)
 # However,the arguments must be a string.
@@ -69,8 +66,6 @@ print('Hello' +"" + str(2))
 
     AppleBananaOrange
     Hello2
-    
-
 
 ```python
 str2="Hello bappy"
@@ -89,31 +84,28 @@ print("hello \n"*20)
     5555 is to Integer
     <class 'int'>
     this is the print statement 1this is the print statement 2
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    hello 
-    
-    
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
+    hello
 
 ## String Function
-
 
 ```python
 Str="this is Borhan Uddin"
@@ -130,10 +122,8 @@ print(Str.replace("Borhan Uddin","Borhan Uddin Bappy").capitalize())
     this is borhan uddin
     8
     This is borhan uddin bappy
-    
 
 # Variable
-
 
 ```python
 First_name = "Borhan Uddin"
@@ -142,11 +132,9 @@ full_name = First_name + Last_name
 print( "hello "+ full_name)
 ```
 
-    hello Borhan Uddin Bappy 
-    
+    hello Borhan Uddin Bappy
 
 # Arthmetic operation
-
 
 ```python
 print("3 + 5 =",3+5)
@@ -162,11 +150,9 @@ print("This is a \" ")
     3 / 5 = 0.6
     3 // 5 = 0
     3 % 5 = 3
-    This is a " 
-    
+    This is a "
 
 # List
-
 
 ```python
 University=['green university','daffodill university','dhaka university','jahangirnagor university','AIUB']
@@ -218,10 +204,8 @@ print(min(University))
     9
     Jaganth University
     AIUB
-    
 
 # Tuples
-
 
 ```python
 #tuple element does not change
@@ -231,10 +215,8 @@ print(tup1[2])
 ```
 
     4
-    
 
 ## Tuple to list convert
-
 
 ```python
 tup1=(2,4,5,6,22)
@@ -244,10 +226,8 @@ print(list1)
 ```
 
     [2, 4, 5, 6, 22]
-    
 
 # Dictionaries
-
 
 ```python
 names={'Borhan':24,
@@ -264,4 +244,3 @@ print(names.keys())
     20
     21
     dict_keys(['Borhan', 'sharukh', 'Shoab', 'Ariful'])
-    
